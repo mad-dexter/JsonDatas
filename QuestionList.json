@@ -1,0 +1,14 @@
+[
+	{
+		"question" : "What is the keyword for defining a variable in Swift?",
+		"answers" : ["var", "v", "variable"],
+		"correctAnswerIndex" : 0,
+		"feedback" : "var is the keyword which helps to create a variable in Swift"
+	},
+	{
+        "question" : "What is the keyword for defining a constant in Swift?",
+        "answers" : ["var", "let", "constant"],
+        "correctAnswerIndex" : 1,
+        "feedback" : "let is the keyword which helps to create a constant in Swift"
+	}
+]

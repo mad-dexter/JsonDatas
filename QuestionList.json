@@ -10,8 +10,8 @@
         "answers" : ["var", "Delegate to Rule manager", "Use the save button"],
         "correctAnswerIndex" : 1,
         "feedback" : "Use Delegate the rule to the manager"
-	}
-    {
+	},
+    	{
     	"question": "Difference between activity and utility?",
     	"answers": [
                 "Activity and Utility are different rule types.",
@@ -20,8 +20,8 @@
                 ],
     	"correctAnswerIndex": 1,
     	"feedback": "An activity is an instance of the Rule-Obj-Activity rule type, Each utility task references an activity with an Activity Type of Utility ss from utility shape we can call activity but vise versa not possible"
-    },
-    {
+    	},
+    	{
     	"question": "What is difference between obj-open and obj-open-by-handle?",
     	"answers": [
                 "A method that can only be declared in that Type",
@@ -30,5 +30,5 @@
                 ],
     	"correctAnswerIndex": 2,
     	"feedback": "Obj open is used to open work object by key column while handle is used to open a object using pzinskey"
-    }
+    	}
 ]

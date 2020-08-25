@@ -5,12 +5,7 @@
 		"correctAnswerIndex" : 0,
 		"feedback" : "pc_work table is the table where all the work objects will be stored."
 	},
-	{
-        "question" : "How to make any rule as a favorite to your manager?",
-        "answers" : ["var", "Delegate to Rule manager", "Use the save button"],
-        "correctAnswerIndex" : 1,
-        "feedback" : "Use Delegate the rule to the manager"
-	},
+	
     {
     	"question": "Difference between activity and utility?",
     	"answers": [

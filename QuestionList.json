@@ -1,14 +1,34 @@
 [
 	{
-		"question" : "What is the keyword for defining a variable in Swift?",
-		"answers" : ["var", "v", "variable"],
+		"question" : "Where work objects will be stored in Pega?",
+		"answers" : ["pc_work table", "In local machine", "In data tables"],
 		"correctAnswerIndex" : 0,
-		"feedback" : "var is the keyword which helps to create a variable in Swift"
+		"feedback" : "pc_work table is the table where all the work objects will be stored."
 	},
 	{
-        "question" : "What is the keyword for defining a constant in Swift?",
-        "answers" : ["var", "let", "constant"],
+        "question" : "How to make any rule as a favorite to your manager?",
+        "answers" : ["var", "Delegate to Rule manager", "Use the save button"],
         "correctAnswerIndex" : 1,
-        "feedback" : "let is the keyword which helps to create a constant in Swift"
+        "feedback" : "Use Delegate the rule to the manager"
 	}
+    {
+    	"question": "Difference between activity and utility?",
+    	"answers": [
+                "Activity and Utility are different rule types.",
+                "An activity is an instance of the Rule-Obj-Activity rule type, Each utility task references an activity with an Activity Type of Utility ss from utility shape we can call activity but vise versa not possible",
+                "Activity and Utility are same"
+                ],
+    	"correctAnswerIndex": 1,
+    	"feedback": "An activity is an instance of the Rule-Obj-Activity rule type, Each utility task references an activity with an Activity Type of Utility ss from utility shape we can call activity but vise versa not possible"
+    },
+    {
+    	"question": "What is difference between obj-open and obj-open-by-handle?",
+    	"answers": [
+                "A method that can only be declared in that Type",
+                "A method that is called on an instance of the Type",
+                "Obj-Open: we will get multiple records from a table based on the criteria from the specified class. Or Opens an instance of a given class.\nOBJ-open-handle:  here we have had to pass the pzInskey as an instance handle, this method will open only one record at the time. Or  Open object by the handle to the pzInsKey value"
+                ],
+    	"correctAnswerIndex": 2,
+    	"feedback": "Obj open is used to open work object by key column while handle is used to open a object using pzinskey"
+    }
 ]
